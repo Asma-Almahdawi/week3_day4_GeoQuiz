@@ -4,19 +4,26 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:backgroundTint="#A67171"
+    android:backgroundTintMode="screen"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    android:scrollbarTrackHorizontal="@android:drawable/ic_dialog_email"
+    tools:context=".MainActivity"
+
+    >
 
     <TextView
-        android:id="@+id/textView2"
-        android:layout_width="match_parent"
+        android:id="@+id/question_Tv"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:padding="24dp"
-        android:text="@string/question_text"
-        android:textAlignment="center"
-        android:textColor="#000000"
-        android:textSize="24sp" />
+        android:padding="40dp"
+        android:textColor="#2A565A"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:text="@string/first_question"
+
+        />
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -25,16 +32,63 @@
 
         <Button
             android:id="@+id/true_button"
+            style="@style/Widget.MaterialComponents.Button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
             android:layout_weight="1"
-            android:text="@string/true_button" />
+            android:backgroundTint="#CD9494"
+            android:text="@string/true_button"
+            android:textColor="#1C3639"
+            app:icon="@android:drawable/btn_star_big_on"
+            app:iconTint="#E2E8DD1F"
+
+            />
 
         <Button
             android:id="@+id/false_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
             android:layout_weight="1"
-            android:text="@string/false_button" />
+            android:backgroundTint="#D39494"
+            android:text="@string/false_button"
+            android:textColor="#254245"
+            app:icon="@android:drawable/btn_star_big_on"
+            app:iconTint="#E2E8DD1F"
+
+            />
+
     </LinearLayout>
+
+    <Button
+        android:id="@+id/next_question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#CD9494"
+        android:textColor="#1C3639"
+        app:icon="?attr/actionModeCloseDrawable" />
+
+    <Button
+        android:id="@+id/pre_question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:icon="@android:drawable/ic_media_play"
+
+        />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/first_write"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/cheat_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cheat_button" />
 </LinearLayout>

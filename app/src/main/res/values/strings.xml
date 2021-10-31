@@ -1,11 +1,24 @@
 <resources>
     <string name="app_name">GeoQuiz</string>
 
-    <string name="question_text"> the capital of KSA is Hail  </string>
+    <string name="first_question">the capital of KSA is hail</string>
+    <string name="second_question">Ksa is in africa</string>
+    <string name="third_question">The most beautiful sea in KSA is tha Allith sea</string>
+    <string name="forth_question">your name is Asma</string>
+    <string name="first_write">Asma</string>
+    <string name="Ssecend_write">Anas</string>
+    <string name="third_write">Asrar</string>
+    <string name="forth_write">Ahmed</string>
+
     <string name="true_button">True</string>
     <string name="false_button">False</string>
-    <string name="correct_toast">Correct !!</string>
-    <string name="incorrect_toast">Incorrect!!</string>
+    <string name="correct_toast">Correct!!</string>
+    <string name="inCorrect_toast">Incorrect!!</string>
+    <string name="nextButton">Next</string>
+    <string name="preButton">pre_question</string>
+    <string name="cheat_button" />
+    <string name="cheater_toast" />
+    <string name="show_Answer" />
 
 
 </resources>
