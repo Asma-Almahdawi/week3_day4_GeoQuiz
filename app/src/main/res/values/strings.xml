@@ -16,9 +16,9 @@
     <string name="inCorrect_toast">Incorrect!!</string>
     <string name="nextButton">Next</string>
     <string name="preButton">pre_question</string>
-    <string name="cheat_button" />
-    <string name="cheater_toast" />
-    <string name="show_Answer" />
+    <string name="cheat_button" >cheat</string>
+    <string name="cheater_toast" >Cheater</string>
+    <string name="show_Answer">ShowAnswer</string>
 
 
 </resources>
